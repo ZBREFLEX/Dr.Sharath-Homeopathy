@@ -1,0 +1,79 @@
+:root {
+    --primary-color: #7FB069;
+    --secondary-color: #B6D6CC;
+    --accent-color: #E6F3F5;
+    --text-color: #333333;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    color: var(--text-color);
+}
+
+.navbar {
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-brand {
+    font-weight: bold;
+    color: var(--primary-color) !important;
+}
+
+.hero {
+    background-color: var(--accent-color);
+    padding: 4rem 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: var(--primary-color);
+}
+
+.btn-primary {
+    background-color: var(--primary-color);
+    border-color: var(--primary-color);
+}
+
+.btn-primary:hover {
+    background-color: #6A9457;
+    border-color: #6A9457;
+}
+
+.card {
+    border: none;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+.bg-light {
+    background-color: var(--secondary-color) !important;
+}
+
+.text-primary {
+    color: var(--primary-color) !important;
+}
+
+footer {
+    background-color: var(--accent-color) !important;
+}
+img {
+    width: 80%;
+    height: auto;
+    display: block;
+    object-fit: cover;
+}
+
+.col-md-6 img {
+    border-radius: 10px; 
+    max-height: 100%;
+}
+.col-md-6 img {
+    width: 80%;
+    height: 95%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
